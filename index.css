@@ -360,7 +360,8 @@ footer a:hover {
 	}
 
 	footer .footer-links {
-		margin: 0 2px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	footer .footer-links span:not(:last-child) {

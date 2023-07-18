@@ -121,6 +121,10 @@ header #menu-and-shop {
 	transform: rotate(-45deg) translateY(-5.5px);
 }
 
+body:not(.loaded) #menu {
+	display: none;
+}
+
 #menu {
 	position: fixed;
 	height: 100vh;

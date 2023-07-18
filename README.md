@@ -1,7 +1,7 @@
-### SpaceX Clone
+# SpaceX Clone
 
 ## Statement
-This repository is meant a clone of the official SpaceX website(https://www.spacex.com)[https://www.spacex.com].
+This repository is a clone of the official SpaceX website([https://www.spacex.com/](https://www.spacex.com/)).
 
 **This website is strictly meant for educational purposes only. No copyright infringment intended.**
 

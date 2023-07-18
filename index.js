@@ -1,10 +1,3 @@
-alert(`
-	This website is a responsive clone of the official SpaceX website(www.spacex.com).
-	All images used are copyrighted to their respective owners.
-	This project is made for educational purposes only.
-	No copyright infringement intended.
-`);
-
 const ANIMATION_KEYFRAMES = [
 	{ opacity: "0%", transform: "translateY(100px)" },
 	{ opacity: "100%", transform: "translateY(0)" }
@@ -31,6 +24,14 @@ window.addEventListener("scroll", (e) => {
 });
 
 window.addEventListener("load", () => {
+	alert(`
+		This website is a responsive clone of the official SpaceX website(www.spacex.com).
+		All images used are copyrighted to their respective owners.
+		This project is made for educational purposes only.
+		No copyright infringement intended.
+		Press OK to continue.
+	`.replaceAll("\t", ""));
+
 	document.body.classList.add("loaded");
 
 	const observer = new IntersectionObserver((intersections) => {

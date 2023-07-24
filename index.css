@@ -340,6 +340,10 @@ footer a:hover {
 		display: none;
 	}
 
+	#menu-and-shop #menu-btn {
+		margin-left: 100%;
+	}
+
 	#menu .other {
 		display: block;
 	}
@@ -355,7 +359,15 @@ footer a:hover {
 	section .details {
 		left: 0;
 		bottom: 0;
-		padding: 0 0 4rem 2rem;
+		padding: 0 0 3.25rem 1.5rem;
+	}
+
+	section .details h2 {
+		font-size: 22px;
+	}
+
+	section .details h1 {
+		font-size: 32px;
 	}
 
 	section:not(:last-child) .scroll-down {

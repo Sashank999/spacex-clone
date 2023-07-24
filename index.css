@@ -352,6 +352,16 @@ footer a:hover {
 		background-position: 60% 0;
 	}
 
+	section .details {
+		left: 0;
+		bottom: 0;
+		padding: 0 0 4rem 2rem;
+	}
+
+	section:not(:last-child) .scroll-down {
+		bottom: 20px;
+	}
+
 	footer {
 		flex-flow: column;
 		row-gap: 30px;

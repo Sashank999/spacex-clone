@@ -214,6 +214,7 @@ section .details {
 	position: absolute;
 	left: 5px;
 	bottom: 60px;
+	max-width: 520px;
 }
 
 section .details:not(.visited) {
